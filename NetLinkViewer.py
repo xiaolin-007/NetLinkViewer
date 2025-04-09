@@ -10,7 +10,7 @@ import threading
 class SortedNetworkViewer:
     def __init__(self, root):
         self.root = root
-        self.root.title("NetLinkViewer")
+        self.root.title("NetLinkViewer V1.0")
         self.root.geometry("1200x700")
         
         # 排序相关变量
